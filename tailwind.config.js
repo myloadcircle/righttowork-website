@@ -7,9 +7,16 @@ export default {
     theme: {
         extend: {
             colors: {
-                'brand-blue': '#2563EB',
-                'brand-dark': '#0F172A',
-                'brand-light': '#F8FAFC',
+                primary: "#0A1A2F",   // Deep navy
+                accent: "#1BAA5A",    // Compliance green
+                muted: "#F7F9FC",     // Light grey-blue
+                warning: "#F5A623",   // Amber
+            },
+            fontFamily: {
+                sans: ['Inter', 'system-ui', 'sans-serif'],
+            },
+            maxWidth: {
+                'page': '960px',
             }
         },
     },
